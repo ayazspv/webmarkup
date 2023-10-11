@@ -1,0 +1,131 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: auto;
+    border: 5px solid lightcoral;
+    border-radius: 10px;
+    padding: 0 0 15px;
+    box-shadow: 5px 5px 0 #c9c9c9;
+    margin: 25px 0;
+}
+.header > h1 {
+    color: lightcoral;
+    font-size: 24px;
+    margin: 15px;
+}
+.header > nav {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    border: 3px solid lightcoral;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 #c9c9c9;
+}
+.header > nav > section {
+    width: 15%;
+    height: 25px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    /*display: inline-block;*/
+    margin: 2.5%;
+}
+.header > nav > h2 {
+    width: 15%;
+    margin: 2.5%;
+    text-align: center;
+}
+
+.body-section {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    padding: 0;
+}
+.body-section > article {
+    width: 65%;
+    float: left;
+    height: auto;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0 #c9c9c9;
+    padding: 0 15px 15px;
+}
+.body-section > article > h1 {
+    color: lightblue;
+    font-size: 24px;
+}
+.body-section > article > figure > section {
+    height: 25px;
+    border-radius: 15px;
+    background-color: lightblue;
+    margin: 25px 0;
+}
+.art1 {
+    width: 100%;
+}
+.art2 {
+    width: 80%;
+}
+.art3 {
+    width: 100%;
+}
+.art4 {
+    width: 80%;
+}
+.art5 {
+    width: 90%;
+}
+.art6 {
+    width: 75%;
+}
+
+.body-section > aside {
+    width: 25%;
+    float: right;
+    height: auto;
+    border: 5px solid purple;
+    border-radius: 10px;
+    margin: 0 -10px 0 0;
+    box-shadow: 5px 5px 0 #c9c9c9;
+    padding: 0 15px 0 15px;
+}
+.body-section > aside > h1 {
+    color: purple;
+    font-size: 24px;
+}
+.body-section > aside > section {
+    height: 25px;
+    border-radius: 15px;
+    background-color: purple;
+    margin: 25px 0;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    border: 5px solid gold;
+    border-radius: 10px;
+    padding: 0 15px 15px;
+    box-shadow: 5px 5px 0 #c9c9c9;
+    margin: 25px 0;
+    float: left;
+}
+.footer > nav > section {
+    width: 15%;
+    height: 25px;
+    background-color: gold;
+    border-radius: 10px;
+    /*display: inline-block;*/
+    margin: 2.5%;
+}
+.footer > nav  {
+    display: flex;
+}
+.footer > h1 {
+    color: gold;
+    font-size: 24px;
+    margin: 15px;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box {
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+section {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* align-items: center; */
+}
+header {
+    min-height: 60px;
+    background-color: darkgreen;
+}
+footer {
+    min-height: 60px;
+    background-color: darkred;
+}
+#A {
+    flex: 1;
+    background-color: lightblue;
+}
+#B {
+    flex: 2;
+    background: blue;
+}
+#C {
+    flex: 1;
+    background-color: darkblue;
+}
